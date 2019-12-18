@@ -1,6 +1,6 @@
-[{
-
-        
+{
+    "Breakfast":  [
+{     
     "id": 1,
     "product": "Café americano",
     "price": 500,
@@ -23,9 +23,10 @@
     "product": "Jugo natural",
     "price": 700,
     "img":"https://i.ibb.co/R6BFB6f/Jugo-de-Frutas.png"
-},
+}
+    ],
 
-
+    "Lunch": [
 
 {
     "id": 5,
@@ -93,3 +94,4 @@
 }
 
 ]
+}

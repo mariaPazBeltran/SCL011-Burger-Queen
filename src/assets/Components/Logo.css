@@ -4,6 +4,7 @@
     margin: 0%;
     width:400px;
     margin-left: 0vw;
+    display: contents;
 }
 .logo-container>img {
     width: 334px;
