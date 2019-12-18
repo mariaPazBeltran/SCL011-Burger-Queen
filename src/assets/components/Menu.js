@@ -27,7 +27,7 @@ clickItem(){
     render(){
         return  <div className="button-container">
             <button  onClick={this.clickItem}>
-              <img src={this.props.img}/>
+              <img  src={this.props.img} alt="icon"/>
               <div>
                 <h6>{this.props.product}</h6>
                 <p>{this.props.price}</p>
