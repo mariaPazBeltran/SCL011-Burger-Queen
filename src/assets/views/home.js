@@ -4,8 +4,6 @@ import Navigation from '../components/Navigation'
 import Menu from '../components/Menu'
 
 class Home extends Component{
-   
-   
 render(){
     return(
         <div>

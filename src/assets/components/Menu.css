@@ -11,6 +11,9 @@
    width: 359px;
    height: 275; 
    fill:100%;
+   align-items: center;
+   text-align: center;
+   border-radius: 10%;
 }
 .button-container>button{
     background-color: #ffffff;
@@ -26,4 +29,9 @@
 
   box-shadow: 0 10px #666;
   transform: translateY(5px);
+}
+p#textPrice{
+  font-size: large;
+  color:2C0141;
+  stroke: black;
 }
