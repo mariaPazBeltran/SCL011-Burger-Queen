@@ -15,6 +15,8 @@ class Breakfast extends Component{
         super(props)
         this.state={
             products: products.Breakfast,
+            client: "",
+            table: "",
             orders: [],
             price: 0
         }
@@ -56,12 +58,20 @@ class Breakfast extends Component{
           price: newTotal
         });
       }
+    /*Toma los valores de los imputs y los guarda en los 
+    estados correspondientes (reacciona al cambio)*/
+      handleChange=(e)=>{
+        this.setState({
+          [e.name]:e.value
+        })
+      }
+
       sendKitchen=()=>{
     /* Al finalizar el pedido lo enviamos a la base de datos
     para luego ser enviado a cocina */
         db.collection("orders").add({
-          mesa: "",
-          cliente: "",
+          mesa: this.state.table,
+          cliente: this.state.client,
           estado: "pendiente",
           orden: this.state.orders,
           total: this.state.price,
@@ -109,8 +119,8 @@ class Breakfast extends Component{
                 </tfoot>
                </table>
                 </div>
+                <Inputclient change={(e)=> this.handleChange(e.target)}/>
                 <button onClick={()=>this.sendKitchen()}>Enviar a Cocina</button>
-                <Inputclient/>
                </div>
 
                <div className="nav-btn">
