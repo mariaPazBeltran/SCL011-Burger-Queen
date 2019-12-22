@@ -3,7 +3,9 @@ import Menu from '../components/Menu'
 import products from  '../data/products.json'
 import Logo from '../components/Logo'
 import Navigation from '../components/Navigation'
-import db from '../../firebaseInit';
+import Inputclient from '../components/Inputclient'
+import '../../index.css'
+import db from '../../firebaseInit'
 
 class Lunch extends Component{
     constructor(props){
@@ -105,11 +107,11 @@ class Lunch extends Component{
                </table>
                 </div>
                 <button onClick={()=>this.sendKitchen()}>Enviar a Cocina</button>
+                 <Inputclient/>
                </div>
 
                <div className="nav-btn">
                <Navigation/>
-
                 {this.state.products.map((e)=>
                 <Menu 
                 clickItem = {this.clickItem}

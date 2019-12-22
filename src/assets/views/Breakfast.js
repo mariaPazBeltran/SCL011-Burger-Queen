@@ -3,8 +3,10 @@ import Menu from '../components/Menu'
 import products from  '../data/products.json'
 import Logo from '../components/Logo'
 import Navigation from '../components/Navigation'
+import Inputclient from '../components/Inputclient'
 import '../../index.css'
 import db from '../../firebaseInit'
+
 
 //se crea la vista que mostrará el menú del desayuno
 class Breakfast extends Component{
@@ -108,6 +110,7 @@ class Breakfast extends Component{
                </table>
                 </div>
                 <button onClick={()=>this.sendKitchen()}>Enviar a Cocina</button>
+                <Inputclient/>
                </div>
 
                <div className="nav-btn">
