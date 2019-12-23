@@ -7,8 +7,8 @@ class Home extends Component{
 render(){
     return(
         <div>
-            <Navigation/>
-             <Menu/>
+            <Navigation />
+             <Menu />
         </div>
     )
 }
