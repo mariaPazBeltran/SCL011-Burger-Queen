@@ -4,11 +4,10 @@ body{
 .navigation-style{
     float: right;
     background-color: #430064;
-    width: 50vh;
+    width: 90vh;
     height: 10vh;
     display: flex;
     justify-content: center;
-    /* align-content: center; */
     align-items: center;
 }
 .navigation-style ul{
@@ -19,7 +18,7 @@ body{
 }
 a{
     color: #FEDC63;
-    padding: 5%;
+    padding: 5vh;
     
 }
 
