@@ -1,12 +1,13 @@
 import React from 'react';
+import "./ListOrder.css"
 const ListOrder=(props)=>{
     let getProducts = Array.from(props.Products)
     return (
-       <table>
+       <table className="Command">
          <thead>
            <tr>
            <td>Productos</td>
-            <td>Precio</td>
+           
            </tr>
          </thead>
          <tbody>
@@ -14,7 +15,7 @@ const ListOrder=(props)=>{
             return(
             <tr key={index}>
             <td>{element.product}</td>
-            <td>{element.price}</td>
+           
           </tr>
             )
       })}

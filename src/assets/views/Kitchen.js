@@ -20,10 +20,11 @@ class Kitchen extends Component{
      y luego meterla dento del estado "request"
      */
     componentDidMount() {
+        
         clearInterval(this.timerID);
         this.timerID = setInterval(
           () => this.update(),
-          1000)
+          120000)
       }
       update(){
         recoverOrder("pendiente")
@@ -87,6 +88,7 @@ class Kitchen extends Component{
                                 <td>Termino</td>
                             </tr>
                         </thead>
+
                         <tbody>
                             {this.state.timeStamp.map((x, index) => (
                             <tr key={index}>
@@ -101,9 +103,11 @@ class Kitchen extends Component{
                 </div>
 
                 <div>
-                <span>Comanda</span>
-                <Clock/>
-                {orders}
+            <div className="headkitchen"> <Clock/><span><h3>Comandas</h3> </span>
+               </div>
+           
+               
+            <div className="board"> {orders}</div>
                 </div>
             </div>
         )
