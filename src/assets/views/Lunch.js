@@ -90,8 +90,7 @@ class Lunch extends Component{
     render(){
         
         return(
-           <div className="container-universal">
-               
+           <div className="container-universal">               
                <div className="logo-detail">
                <Logo/>
                {/* aquí se va imprimiendo el detalle según se 

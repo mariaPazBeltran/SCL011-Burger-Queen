@@ -27,17 +27,14 @@ code {
 .table-detail{
   width: 44vh;
   display: grid;
-  margin-top: 4.5vh;
-  
+  margin-top: 4.5vh;  
 }
 .table-detail>table{
   margin-left: 2vh;
-  
 }
 
 .table-detail>table>tbody{
-  background-color: rgba(254, 220, 99, 0.589);
-  
+  background-color: rgba(254, 220, 99, 0.589);  
 }
 
 div.table-detail>table>thead>tr>td{
@@ -47,10 +44,8 @@ div.table-detail>table>tbody>tr>td>button{
   color: #FEDC63;
   stroke: cornsilk;
   background-color: #430064;
-  
 }
 div.sendingkitchen>button{
- 
   width: 20vh;
   height: 3vh;
   margin-left: 24vh;
@@ -59,6 +54,7 @@ div.sendingkitchen>button{
   stroke: cornsilk;
   background-color: #430064;
 }
+
 .container-universal{
 display: flex;
 }

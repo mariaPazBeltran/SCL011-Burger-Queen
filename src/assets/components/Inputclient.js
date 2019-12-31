@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Inputclient.css";
 
-
 class Inputclient extends Component {
   render() {
     return <div className="input-container">
