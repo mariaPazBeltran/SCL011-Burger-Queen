@@ -174,6 +174,7 @@ Este test se realizo una vez terminada las tres historias de usuarios. Dentro de
 - Cuando se realizan los pedidos con el menu, una vez que se ha hecho click en el boton de enviar debiera aparecer un mensaje que dijera que el pedido a sido enviado. pues al no existir y no borrarse los datos confunde al usuario pueste que este queda con la persepcion de que el pedido no ha sido realizado.
 - Hacer actualizaciones de los pedidos mas seguidas ya que una vez que se envia de cocina el pedido listo este tarda aprox 5 min en aparecer como pedido listo y 5 min mas en aparecer en la tabla de pedidos entregados. 
 - Al realizar las pruebas en la tablet y en el celular se verifico que no existia lineamientos correctos en la presentacion por lo que se debiera corregir el diseño visual.
+-Es necesario poder volver al Home, lo que podri ser en el logo de la aplicacion. 
 
 ## Planificación
 
@@ -223,7 +224,7 @@ Este test se realizo una vez terminada las tres historias de usuarios. Dentro de
 
 ** Progressive Web App **
 
-- [ ] Funciona offline
+- [x] Funciona offline
 - [x] Utiliza Lighthouse para auditar la app
 
 ** Testing **

@@ -6,11 +6,17 @@
     margin-left: 0vw;
     display: contents;
 }
-.logo-container>img {
+.logo-container>button>a>img {
     width: 334px;
-    height: 10vh;
+    height: 9vh;
     padding: 0%;
    
+}
+.logo-container>button{
+    background-color: rgba(240, 248, 255, 0);
+    padding: 0%;
+    border:none;
+    
 }
 @media only screen and (max-width: 600px) {
     .logo-container{

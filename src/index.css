@@ -28,8 +28,7 @@ code {
   width: 44vh;
   display: grid;
   margin-top: 4.5vh;
-  
-}
+  }
 .table-detail>table{
   margin-left: 2vh;
   margin-top: 1vh;
@@ -44,14 +43,16 @@ code {
 div.table-detail>table>thead>tr>td{
  font-weight: bold;
 }
+
+div.table-detail>table>thead>tr>td{
+ font-weight: bold;
+}
 div.table-detail>table>tbody>tr>td>button{
   color: #FEDC63;
   stroke: cornsilk;
   background-color: #430064;
-  
 }
 div.sendingkitchen>button{
- 
   width: 20vh;
   height: 3vh;
   margin-left: 24vh;
@@ -68,7 +69,6 @@ div.kitchenOrder-container{
   border-style: ridge;
   margin: 1vh;
   width: 25vh;
-  
 }
 div.kitchenOrder-container>div>h5{
   font-weight: bolder;
@@ -120,7 +120,28 @@ div.board{
  grid-template-columns: auto auto;
  
 }
-
+div.ServerToOrder-container>button{
+  width: 20vh;
+  height: 3vh;
+ 
+  border-radius: 15px;
+  color: #FEDC63;
+  stroke: cornsilk;
+  background-color: #430064;
+  text-align: center;
+  align-items: center;
+}
+div.oclockorder{
+ 
+ position: absolute;
+ margin-left: 0vh;
+ transform: translate(810px,-70px); 
+}
+div.boardorders{
+  margin-top:15vh;
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
 @media only screen and (max-width: 600px) {
   .table-detail{
