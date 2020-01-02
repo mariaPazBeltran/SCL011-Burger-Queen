@@ -28,7 +28,7 @@ code {
   width: 44vh;
   display: grid;
   margin-top: 4.5vh;
-  }
+}
 .table-detail>table{
   margin-left: 2vh;
   margin-top: 1vh;
@@ -37,6 +37,11 @@ code {
 
 .table-detail>table>tbody{
   background-color: rgba(254, 220, 99, 0.589);
+  
+}
+
+div.table-detail>table>thead>tr>td{
+ font-weight: bold;
 }
 
 div.table-detail>table>thead>tr>td{

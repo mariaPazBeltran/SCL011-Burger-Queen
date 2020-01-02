@@ -157,6 +157,24 @@ Dentro de las observaciones, se destacan los siguientes puntos.
 ![Almuerzo](https://i.ibb.co/ngj8VH0/4.png)
 ![Cocina](https://i.ibb.co/qBTCrRW/5.png)
 
+# Tests de usabilidad
+Test de Usabilidad Historia de Usuario 1
+[Parte 1](https://youtu.be/dpSspok5yek)
+[Parte 2](https://youtu.be/pwA4oL2h_Yo)
+[Parte 3](https://www.youtube.com/watch?v=aXcfnHDkUA8)
+
+Observaciones:
+Segun lo comentado y visto durante este test existian dos link que no estaban siendo utilizados pedidos y pagados. lo que generaba error y confucion puesto que el usuario tendia a hacer click en estos y no llebaban a ninguna seccion, esto se corrigio eliminando el link que no se termino y desarrollando la seccion de pedidos entregados 
+
+Test de Usabilidad Historia de Usuario 3
+[Test](https://youtu.be/Lmqt4cqf27I)
+
+Observaciones:
+Este test se realizo una vez terminada las tres historias de usuarios. Dentro de lo que se observo se deberian corregir los siguientes puntos.
+- Cuando se realizan los pedidos con el menu, una vez que se ha hecho click en el boton de enviar debiera aparecer un mensaje que dijera que el pedido a sido enviado. pues al no existir y no borrarse los datos confunde al usuario pueste que este queda con la persepcion de que el pedido no ha sido realizado.
+- Hacer actualizaciones de los pedidos mas seguidas ya que una vez que se envia de cocina el pedido listo este tarda aprox 5 min en aparecer como pedido listo y 5 min mas en aparecer en la tabla de pedidos entregados. 
+- Al realizar las pruebas en la tablet y en el celular se verifico que no existia lineamientos correctos en la presentacion por lo que se debiera corregir el diseño visual.
+
 ## Planificación
 
 [Trello](https://trello.com/b/qVVNX6pC/burguer-queen)
@@ -173,8 +191,8 @@ Dentro de las observaciones, se destacan los siguientes puntos.
 - [x] Prioriza el desarrollo en cuanto a historias de usuario
 - [x] Realiza entrevistas a usuari@s de la aplicación
 - [x] Itera la planificación/historias de usuario en base al resultado de las entrevistas
-- [] Realiza testeo de usabilidad de la aplicación
-- [] Itera en base al testeo de usabilidad de la app
+- [x] Realiza testeo de usabilidad de la aplicación
+- [x] Itera en base al testeo de usabilidad de la app
 
 **Interfaz**
 
