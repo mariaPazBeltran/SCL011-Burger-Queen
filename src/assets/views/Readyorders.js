@@ -22,7 +22,7 @@ class Readyorders extends Component {
      */
   componentDidMount() {
     clearInterval(this.timerID);
-    this.timerID = setInterval(() => this.update(), 120000);
+    this.timerID = setInterval(() => this.update(), 1000);
   }
   update() {
     recoverOrder("listo").then(orders => this.setState({ request: orders }));

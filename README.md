@@ -176,6 +176,7 @@ Este test se realizo una vez terminada las tres historias de usuarios. Dentro de
 - Al realizar las pruebas en la tablet y en el celular se verifico que no existia lineamientos correctos en la presentacion por lo que se debiera corregir el diseño visual.
 -Es necesario poder volver al Home, lo que podri ser en el logo de la aplicacion. 
 
+
 ## Planificación
 
 [Trello](https://trello.com/b/qVVNX6pC/burguer-queen)
