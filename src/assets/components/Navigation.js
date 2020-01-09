@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
-
+// en este componente se enruta la aplicacion a las distintas vistas
 const Navigation = props => {
   return (
       <nav className="navigation-style">
