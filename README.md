@@ -199,36 +199,34 @@ Dentro de las observaciones, se destacan los siguientes puntos.
 
   [Figma](https://www.figma.com/file/LELmcuygbOhs6mNGyhBRlG/BurguerQueen?node-id=0:1)
 
-  ![inicio](https://i.ibb.co/6DSdM6P/1.png)
+![inicio](https://i.ibb.co/6DSdM6P/1.png)
 ![menu](https://i.ibb.co/CQJ83Hp/2.png)
-  ![desayuno](https://i.ibb.co/nRWLkP0/3.png)
-
+![desayuno](https://i.ibb.co/nRWLkP0/3.png)
 ![almuerzo](https://i.ibb.co/pbFtXqq/4.png)
-
 ![cocina](https://i.ibb.co/GxnYzWc/5.png)
 ![pedidos listos](https://i.ibb.co/PGtSSTW/6.png)
 
+
+
 # 8- Tests de usabilidad
 
-  **Test de Usabilidad Historia de Usuario 1**
- 
- [Parte 1](https://youtu.be/dpSspok5yek)
- [Parte 2](https://youtu.be/pwA4oL2h_Yo)
- [Parte 3](https://www.youtube.com/watch?v=aXcfnHDkUA8)
+Test de Usabilidad Historia de Usuario 1
+[Parte 1](https://youtu.be/dpSspok5yek)
+[Parte 2](https://youtu.be/pwA4oL2h_Yo)
+[Parte 3](https://www.youtube.com/watch?v=aXcfnHDkUA8)
 
- Observaciones:
-Según lo comentado y visto durante este test existían dos link que no estaban siendo utilizados (pedidos y pagados). lo que generaba error y confusión, puesto que el usuario tendía a hacer click en estos y no llevaban a ninguna sección, esto se corrigió eliminando el link que no se ocupaba y desarrollando la sección de pedidos entregados
+Observaciones:
+Segun lo comentado y visto durante este test existian dos link que no estaban siendo utilizados pedidos y pagados. lo que generaba error y confucion puesto que el usuario tendia a hacer click en estos y no llebaban a ninguna seccion, esto se corrigio eliminando el link que no se termino y desarrollando la seccion de pedidos entregados 
 
-  
-**Test de Usabilidad Historia de Usuario 3**
+Test de Usabilidad Historia de Usuario 3
 [Test](https://youtu.be/Lmqt4cqf27I)
 
 Observaciones:
-Este test se realizo una vez terminada las tres historias de usuarios. Dentro de lo que se observo se deberían corregir los siguientes puntos.
-- Cuando se realizan los pedidos con el menú, una vez que se ha hecho click en el botón de enviar debiera aparecer un mensaje que dijera que el pedido a sido enviado. pues al no existir y no borrarse los datos confunde al usuario puesto que este queda con la percepción de que el pedido no ha sido realizado.
-- Hacer actualizaciones de los pedidos mas seguidas ya que una vez que se envía de cocina el pedido listo este tarda aprox 5 min en aparecer como pedido listo y 5 min mas en aparecer en la tabla de pedidos entregados. 
-- Al realizar las pruebas en la tablet y en el celular se verifico que no existía lineamientos correctos en la presentación por lo que se debiera corregir el diseño visual.
--Es necesario poder volver al Home, lo que podría ser en el logo de la aplicación. (esto ya se corrigio)
+Este test se realizo una vez terminada las tres historias de usuarios. Dentro de lo que se observo se deberian corregir los siguientes puntos.
+- Cuando se realizan los pedidos con el menu, una vez que se ha hecho click en el boton de enviar debiera aparecer un mensaje que dijera que el pedido a sido enviado. pues al no existir y no borrarse los datos confunde al usuario pueste que este queda con la persepcion de que el pedido no ha sido realizado.
+- Hacer actualizaciones de los pedidos mas seguidas ya que una vez que se envia de cocina el pedido listo este tarda aprox 5 min en aparecer como pedido listo y 5 min mas en aparecer en la tabla de pedidos entregados. 
+- Al realizar las pruebas en la tablet y en el celular se verifico que no existia lineamientos correctos en la presentacion por lo que se debiera corregir el diseño visual.
+-Es necesario poder volver al Home, lo que podri ser en el logo de la aplicacion. 
 
   # 9- Ligthouse
  
@@ -269,6 +267,7 @@ Una de las mejoras mas importantes que se debiera conseguir en un futuro  es a t
   
 **Planificación e Investigación**
 
+
 -  [x] Hace una planificación inicial y el product backlog
 -  [x] Revisa y actualiza planificación a medida que se desarrolla el proyecto
 -  [x] Realiza historias de usuario
@@ -277,6 +276,7 @@ Una de las mejoras mas importantes que se debiera conseguir en un futuro  es a t
 -  [x] Itera la planificación/historias de usuario en base al resultado de las entrevistas
 -  [x] Realiza testeo de usabilidad de la aplicación
 -  [x] Itera en base al testeo de usabilidad de la app
+
 
   **Interfaz**
 
@@ -288,7 +288,7 @@ Una de las mejoras mas importantes que se debiera conseguir en un futuro  es a t
 
 -  [x] Utiliza reglas de ESlint (ES6+) para su framework
 
-** Es Single Page App**
+**Es Single Page App**
 
 -  [x] Usa funciones pequeñas con una sola responsabilidad
 -  [x] Divide su código en módulos (componentes)
@@ -305,17 +305,19 @@ Una de las mejoras mas importantes que se debiera conseguir en un futuro  es a t
 -  [x] Guarda archivos, como imagenes, en Firebase Storage u otro servicio de almacenamiento
 -  [x] La app está desplegada y se puede acceder desde cualquier dispositivo
 
-** Progressive Web App **
+**Progressive Web App **
+
 -  [x] Funciona offline
 -  [x] Utiliza Lighthouse para auditar la app
 
-** Testing **
+
+**Testing **
 
  - [x] Realiza tests unitarios
 -  [x] Ocupa herramientas como Jest, Enzyme, Jasmine o Karma (u otro)
 - [ ] Tiene un 70% de coverage
  
-** GIT **
+**GIT **
 
 -  [x] Hace commits con propósito claro y pequeños
 -  [x] Usa ramas de desarrollo o feature
