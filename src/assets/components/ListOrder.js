@@ -1,5 +1,6 @@
 import React from 'react';
 import "./ListOrder.css"
+//este componente muestra la tabla con el pedido realizado (enlistando los productos)
 const ListOrder=(props)=>{
     let getProducts = Array.from(props.Products)
     return (

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Inputclient.css";
-
+//este elemento capta el nombre del cliente y numero de mesa
 class Inputclient extends Component {
   render() {
     return <div className="input-container">

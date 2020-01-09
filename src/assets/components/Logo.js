@@ -3,7 +3,7 @@ import logo from '../img/logo.png'
 import './Logo.css'
 import { Link } from "react-router-dom";
 
-
+// se linkea a home
 class Logo extends Component{
    
     

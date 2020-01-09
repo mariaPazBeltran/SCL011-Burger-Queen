@@ -1,53 +1,58 @@
-body{
-    margin-top: 0%;
-}
-.navigation-style{
-    float: right;
-    background-color: #430064;
-    width: 90vh;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-}
-.navigation-style ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    
-}
-a{
-    color: #FEDC63;
-    padding: 2vh;
-    font-size: 3vh;
+body {
+  margin-top: 0%;
 
-    
+}
+nav.navigation-style {
+  /* float: right; */
+  background-color: #430064;
+  width: 100vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+  margin:0%;
+}
+.navigation-style ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+ 
+}
+a {
+  color: #fedc63;
+  padding: 2vh;
+  font-size: 3vh;
+}
+a:active{
+    background-color: rgb(130, 0, 251);
 }
 
 @media only screen and (max-width: 600px) {
-    .navigation-style{
-       
-        width: 45vh;
-        height: 8vh;
-        display: flex;
-        padding: 0%;
-       
+  .navigation-style {
+    width: 45vh;
+    height: 8vh;
+    display: flex;
+    padding: 0%;
+  }
+  .navigation-style ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 0%;
+  }
+  a {
+    padding: 2vh;
+    /* font-size: 2.2vh; */
+  }
+  @media only screen and (min-width: 1000px) {
+    .nav-btn nav .navigation-style {
+      width: 450vh;
     }
-    .navigation-style ul{
-        list-style: none;
-        justify-content: center;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        
-        padding: 0%;
-    }
-    a{
-        
-        padding: 1vh;
-        font-size: 2.2vh;
-       
-            
-    }
+  }
+
+
 }
